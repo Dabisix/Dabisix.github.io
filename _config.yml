@@ -173,7 +173,7 @@ compress_html:
   comments: all
   endings: all
   profile: false
-  blanklines: false
+  blanklines: falsecate
   ignore:
     envs: [development]
 
