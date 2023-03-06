@@ -22,7 +22,7 @@ title: Dablog # the main title
 
 tagline: 잔잔한 파도처럼 # it will display as the sub-title
 
-description: >- # used by seo meta and the atom feed
+description: >- # used by seo meta and the atom feed // 검색엔진에 걸릴 키워드
   A minimal, responsive, and powerful Jekyll theme for presenting professional writing.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
@@ -69,17 +69,17 @@ google_analytics:
 #     light  - Use the light color scheme
 #     dark   - Use the dark color scheme
 #
-theme_mode: # [light|dark]
+theme_mode: dark # [light|dark]
 
 # The CDN endpoint for images.
 # Notice that once it is assigned, the CDN url
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: "https://chirpy-img.netlify.app"
+# img_cdn: "https://chirpy-img.netlify.app"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/img/profile.png"
+avatar: "/assets/img/profile.jpg"
 
 # boolean type, the global switch for ToC in posts.
 toc: true
